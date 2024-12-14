@@ -2,7 +2,7 @@
 class: exclude-hashira
 ---
 
-# 技術同人誌テンプレート_title
+# 職務経歴書
 
 <nav id="toc" role="doc-toc">
 

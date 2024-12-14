@@ -3,3 +3,21 @@
     word-wrap: break-word;
     white-space: nowrap;
 }
+
+/* 
+ * colophon
+ */
+.colophon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+  
+/* 
+ * page break
+ */
+hr.page-break {
+    break-after: page;
+    visibility: hidden;
+}

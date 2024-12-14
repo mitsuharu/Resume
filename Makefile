@@ -4,8 +4,7 @@ MAKEFILE_PATH := $(MAKEFILE_DIR)/Makefile
 DOCKER_COMPOSE_PATH := $(MAKEFILE_DIR)/docker-compose.yml
 BOOK_DIR := $(MAKEFILE_DIR)/book
 OUTPUT_DIR := $(BOOK_DIR)/output
-BOOK_PATH := $(OUTPUT_DIR)/ebook.pdf
-BOOK_PRESS_PATH := $(OUTPUT_DIR)/press.pdf
+BOOK_PATH := $(OUTPUT_DIR)/resume.pdf
 
 export TEXT_LINT_IMAGE_NAME=textlint
 export TEXT_LINT_IMAGE_TAG=latest
@@ -52,12 +51,6 @@ pdf: \
 	build_pdf \
 	stop_colima
 
-.PHONY: press
-## プレス版のpdfを生成する
-press: \
-	build_pdf_press \
-	stop_colima
-
 .PHONY: lint
 ## textlintを実行する
 lint:
@@ -66,10 +59,6 @@ lint:
 .PHONY: build_pdf
 build_pdf:
 	$(VIVLIOSTYLE_CLI) build
-
-.PHONY: build_pdf_press
-build_pdf_press:
-	$(VIVLIOSTYLE_CLI) build --config vivliostyle.config.press.docker.js
 
 .PHONY: open
 ## pdfを開く

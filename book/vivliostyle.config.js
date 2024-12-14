@@ -1,10 +1,10 @@
 module.exports = {
-  title: '技術同人誌テンプレート_title',
-  author: '技術同人誌テンプレート_author',
+  title: '職務経歴書',
+  author: '江本光晴',
   language: 'ja',
-  size: 'A5',
+  size: 'A4',
   theme: [
-    'vivliostyle-theme-macneko-techbook',
+    '@vivliostyle/theme-techbook',
     "@mitsuharu/vivliostyle-theme-noto-sans-jp",
     'theme/theme-custom',
   ],
@@ -23,7 +23,7 @@ module.exports = {
   ],
   entryContext: './manuscripts',
   output: [
-    'output/ebook.pdf',
+    'output/resume.pdf',
   ],
   workspaceDir: '.vivliostyle',
   toc: false,
