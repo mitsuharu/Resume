@@ -14,3 +14,13 @@
 .exclude-hashira {
     page: exclude-hashira;
 }
+
+@media print {
+  /* 文中の URL が自動で注釈になるのを防ぐ */
+  :not(.footnote) > a[href^='http']::before {
+    display: none;
+  }
+  :not(.footnote) > a[href^='http']::after {
+    display: none;
+  }
+}

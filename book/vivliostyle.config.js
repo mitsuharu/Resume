@@ -11,6 +11,13 @@ module.exports = {
   entry: [
     // 目次
     'index.md',
+
+    // 自己紹介
+    'profile.md',
+
+
+    'resume.md',
+
     // はじめに
     'preface.md',
     // 各章の原稿
