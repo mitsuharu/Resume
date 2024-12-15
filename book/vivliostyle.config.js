@@ -15,16 +15,17 @@ module.exports = {
     // 自己紹介
     'profile.md',
 
+    // スキルセット
+    'skill.md',
 
-    'resume.md',
+    // 職務経歴
+    'yumemi.md',
+    'otobank.md',
+    'seesaa.md',
+    'others.md',
 
-    // はじめに
-    'preface.md',
-    // 各章の原稿
-    'sample_chapter.md',
-    
-    // 著者紹介
-    'authors.md',
+    'hobby.md',
+  
     // 奥付
     'colophon.md'
   ],
