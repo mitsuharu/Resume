@@ -16,16 +16,21 @@ module.exports = {
     'profile.md',
 
     // スキルセット
-    'skill.md',
+    'skill-mobile.md',
+    'skill-ml.md',
+
+    // テクニカルノート
+    'technote.md',
+
+    // 個人開発
+    'hobby.md',
 
     // 職務経歴
     'yumemi.md',
     'otobank.md',
     'seesaa.md',
     'others.md',
-
-    'hobby.md',
-  
+      
     // 奥付
     'colophon.md'
   ],
