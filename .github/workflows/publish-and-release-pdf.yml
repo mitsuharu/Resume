@@ -20,11 +20,7 @@ jobs:
     # 環境変数を定義
     env:
       # 生成される PDF のパス
-      EBOOK_PDF_PATH: ./book/output/ebook.pdf
-      EBOOK_COVERED_PDF_PATH: ./book/output/ebook_covered.pdf
-      PRESS_PDF_PATH: ./book/output/press.pdf
-      COVER_PNG_PATH: ./book/cover/cover.png
-      COVER_PSD_PATH: ./book/cover/*.psd
+      EBOOK_PDF_PATH: ./book/output/resume.pdf
     
     steps:
 
@@ -48,17 +44,6 @@ jobs:
             echo "エラー: 電子版 PDF の生成に失敗しました。"
             exit 1
           fi
-
-          yarn cover
-          if [ ! -f "${EBOOK_COVERED_PDF_PATH}" ]; then
-            echo "ワーニング: 電子版 PDF の表紙付けに失敗しました。"
-          fi
-
-          make press
-          if [ ! -f "${PRESS_PDF_PATH}" ]; then
-            echo "エラー: 電子版 PDF の生成に失敗しました。"
-            exit 1
-          fi
           
       # リリースの作成
       - name: Release
@@ -68,7 +53,3 @@ jobs:
           fail_on_unmatched_files: false
           files: |
             ${{ env.EBOOK_PDF_PATH }}
-            ${{ env.EBOOK_COVERED_PDF_PATH }}
-            ${{ env.PRESS_PDF_PATH }}
-            ${{ env.COVER_PNG_PATH }}
-            ${{ env.COVER_PSD_PATH }}

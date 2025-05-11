@@ -9,10 +9,8 @@
     "lint": "textlint ./book/manuscripts/",
     "start": "run-s pdf open",
     "pdf": "cd ./book/ && vivliostyle build",
-    "press": "cd ./book/ && vivliostyle build --config vivliostyle.config.press.local.js",
-    "open": "open ./book/output/ebook.pdf",
-    "clean": "rm -rf ./book/output/",
-    "cover": "node ./scripts/InsertCoverImage.js"
+    "open": "open ./book/output/resume.pdf",
+    "clean": "rm -rf ./book/output/"
   },
   "devDependencies": {
     "@vivliostyle/cli": "^9.1.0",

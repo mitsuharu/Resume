@@ -9,3 +9,8 @@
 
 /* スタイル一般 */
 @import url(./themes/style.css);
+
+@import url(./themes/profile.css);
+
+
+@import url(./themes/fontSize.css);
