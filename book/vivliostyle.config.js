@@ -13,7 +13,7 @@ module.exports = {
     'index.md',
 
     // 自己紹介
-    'profile.md',
+    '00_00_profile.md',
 
     // スキルセット
     'skill-mobile.md',
