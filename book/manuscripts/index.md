@@ -12,10 +12,10 @@ class: exclude-hashira
 
 ### スキルセット
 
-1. [スキルセット（モバイルアプリ）](skill-mobile.html)
-1. [スキルセット（機械学習）](skill-ml.html)
-1. [テクニカルノート](technote.html)
-1. [個人開発](hobby.html)
+1. [スキルセット（モバイルアプリ）](10_00_skill-mobile.html)
+1. [スキルセット（機械学習）](10_01_skill-ml.html)
+1. [テクニカルノート（アウトプット）](20_00_technote.html)
+1. [個人開発](30_00_hobby.html)
 
 ### 職歴
 

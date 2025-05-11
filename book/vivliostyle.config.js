@@ -16,14 +16,14 @@ module.exports = {
     '00_00_profile.md',
 
     // スキルセット
-    'skill-mobile.md',
-    'skill-ml.md',
+    '10_00_skill-mobile.md',
+    '10_01_skill-ml.md',
 
     // テクニカルノート
-    'technote.md',
+    '20_00_technote.md',
 
     // 個人開発
-    'hobby.md',
+    '30_00_hobby.md',
 
     // 職務経歴
     'yumemi.md',
