@@ -1,45 +1,34 @@
 # 株式会社オトバンク
 
-2019 年 9 月に入社した。書籍を朗読した音声データ、オーディオブックを取り扱っている。そのオーディオブックを再生・販売するアプリ（[App Store](https://apps.apple.com/JP/app/id1357581573?mt=8), [Google Play](https://play.google.com/store/apps/details?id=jp.audiobook.app)）を開発する。iOS, Android 向けとも React Native で作成されている。開発担当した事例の一部を列挙する。
+2019 年 9 月に入社して、2022 年 6 月に退職した。書籍を朗読した音声データ、オーディオブックを取り扱っている。そのオーディオブックを再生・販売するアプリ（[App Store](https://apps.apple.com/JP/app/id1357581573?mt=8), [Google Play](https://play.google.com/store/apps/details?id=jp.audiobook.app)）を開発する。iOS, Android 向け共に React Native で作成されている。開発担当した事例の一部を列挙する。
 
-## 主な技術スタック
-
-### React Native 関連
-
-- TypeScript
-- RxJS
-- Redux Saga
-- Watermelon DB
-- React Navigation
-- React Native Paper
-- Firebase
-- Expo（Bare workflow）
-- Jest
-
-### コード管理
-
-- GitHub
-
-### CI
-
-- Bitrise
+| 主な技術スタック | 内容 |
+|:- | :- |
+| 言語 | TypeScript |
+| アーキテクチャ| Redux Saga, RxJS |
+| ライブラリ | React Navigation, React Native Paper |
+| | Firebase, Expo（Bare workflow）|
+| データベース | Watermelon DB |
+| テスト | Jest |
+| コード管理 | GitHub |
+| CI | Bitrise |
 
 ## React Native
 
-React Native で iOS および Android アプリの開発をしている。React Native は未経験で入社して、業務開発をしながら、勉強していった。また、React Native では実装できない再生機能などの iOS および Android それぞれのネイティブ機能の実装（Swift, Kotlin）の開発も行っている。
+React Native で iOS および Android アプリの開発をしている。React Native は未経験で入社して、業務開発をしながら、勉強した。また、React Native では実装できない再生機能などの iOS および Android それぞれのネイティブ機能の実装（Swift, Kotlin）の開発も行った。
 
 ### 開発進行
 
 - 開発スタイル
   - PM、デザイナー、サーバーサイドエンジニア、アプリエンジニアの少人数チームで行う
   - 当初はスクラムだったが、人が少なく上手く回らなかったので、厳密なスクラムではない
-  - 後述の ver. 2 への大規模な改修をしたときは PM とアプリエンジニアでウォーターフォールを採用した
+  - 後述の ver. 2 への大規模な改修をしたときは、ウォーターフォールを採用した
 - エンジニアチーム
   - 小規模な機能開発は原則１人のエンジニアで行っている
   - コードレビューはプロジェクトやチームを越えてエンジニアチーム全体で行っている
   - 大規模改修は社員 3 人と業務委託 1 人のエンジニア 4 人で開発した
 
-## リモートワーク（2019/12 - 退職まで）
+### リモートワーク（2019/12 - 退職まで）
 
 コロナ禍の前よりリモートワークが可能だったが、完全に出社しないフルリモートワーク希望の社員は私がはじめてだったので、最初の３ヶ月ほど本社に出社した。その後は、山口県に戻り、フルリモートで勤務している。Slack や Google meets などのツールを利用して、コミュニケーションを取りながら、問題なく開発をしている。社内業務で東京出張したこともあったが、コロナ禍に入ってからは本社へ出社はしていない。開発中は集中したいので、リモートワークでの開発は私に適している。
 

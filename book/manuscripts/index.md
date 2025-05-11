@@ -19,9 +19,9 @@ class: exclude-hashira
 
 ### 職歴
 
-1. [株式会社ゆめみ](yumemi.html)
-1. [株式会社オトバンク](otobank.html)
-1. [シーサー株式会社](seesaa.html)
-1. [その他](others.html)
+1. [株式会社ゆめみ](50_02_yumemi.html)
+1. [株式会社オトバンク](50_01_otobank.html)
+1. [シーサー株式会社](50_00_seesaa.html)
+<!-- 1. [その他](50_99_others.html) -->
 
 </nav>

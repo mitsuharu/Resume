@@ -2,13 +2,11 @@
 class: exclude-hashira
 ---
 
-<hr class="page-break" />
-
 <section class="colophon">
 
 ## 職務経歴書
 
-2024年12月31日 初版
+2025 年 5 月 11 日 初版
 
 ---
 
@@ -25,6 +23,6 @@ class: exclude-hashira
 
 ---
 
-© 2024 江本光晴
+© 2025 江本光晴
 
 </section>

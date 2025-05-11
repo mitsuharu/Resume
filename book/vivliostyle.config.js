@@ -26,13 +26,13 @@ module.exports = {
     '30_00_hobby.md',
 
     // 職務経歴
-    'yumemi.md',
-    'otobank.md',
-    'seesaa.md',
-    'others.md',
+    '50_02_yumemi.md',
+    '50_01_otobank.md',
+    '50_00_seesaa.md',
+    // '50_99_others.md',
       
     // 奥付
-    'colophon.md'
+    '99_00_colophon.md'
   ],
   entryContext: './manuscripts',
   output: [
