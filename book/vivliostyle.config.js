@@ -15,6 +15,9 @@ module.exports = {
     // 自己紹介
     '00_00_profile.md',
 
+    // 経歴要約
+    '01_00_summary.md',
+
     // スキルセット
     '10_00_skill-mobile.md',
     '10_01_skill-ml.md',

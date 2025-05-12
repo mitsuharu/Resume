@@ -8,7 +8,10 @@ class: exclude-hashira
 
 ## 目次
 
+### はじめに
+
 1. [自己紹介](00_00_profile.html)
+1. [経歴要約](01_00_summary.html)
 
 ### スキルセット
 
